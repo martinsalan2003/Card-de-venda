@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Participei recentemente de um desafio da Frontend Mentor, focado em projetos de desenvolvimento front-end que simulam cenários reais do mercado de trabalho. Escolhi um design desafiador e utilizei HTML, CSS. para transformá-lo em uma aplicação web responsiva e funcional.
-[Acesse aqui]().
+[Acesse aqui](https://martinsalan2003.github.io/Card-de-venda/).
 
 ## 🔖 Layout
 
