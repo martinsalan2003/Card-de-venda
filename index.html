@@ -9,28 +9,56 @@
   <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+   <link rel="stylesheet" href="./style.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
+  <!-- imagen do produto -->
+<div class="container">
+  <div class="displayCard">
+    <div class="displayImagen">
+      <img class="Product" src="./images/image-product-desktop.jpg" alt="">
+    </div>
+<!-- apresentação do produto -->
+    <div class="diplayTxt">
+      <div class="header"
+      ><h1>PERFUME</h1>
+    </div> 
 
-  Perfume
-
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
+      <div class="title">
+        <h2>Gabrielle <br> Essence Eau <br> De Parfum</h2>
+      </div>
+      
+      <div class="description">
+        <p>
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
+      </div>
+     
+        <div class="price">
+          <H3>$149.99</H3>
+          <span>$169.99</span>
+        </div>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="btn">
+        <a href="#">
+        <img src="./images/icon-cart.svg" alt="">
+        Add to Cart
+        </a>
+      </div>
+      
+      
+
+    </div>
+  </div>
+  </div>
   </div>
 </body>
 </html>
