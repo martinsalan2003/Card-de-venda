@@ -10,16 +10,12 @@
     background-color: hsl(30, 38%, 92%);
     display: grid;
     place-items: center;
-   
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .displayCard {
     display: flex;
     background-color: #ffffff;
     height: 60vh;
-    width: 40vw; 
+    width: 50vw; 
 }
 .displayCard {
     border-radius: 10px;
@@ -27,7 +23,7 @@
 
 /* lado da imagen */
 .displayImagen {
-    width:70vw;
+    width:50%;
 }
 .Product {
     border-top-left-radius: 10px;
@@ -39,15 +35,17 @@
 /* lado dos textos */
 .diplayTxt {
     background-color: #ffffff;
-   margin: 15px 30px;
-   display: flex;
-   flex-direction: column;
-   gap: 1.3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 0.5rem;
+
 }
 
 /* produto */
 h1 {
-
+    padding: 0.5rem;
     font-weight:normal;
     letter-spacing: 0.30rem;
     font-size: 0.6rem;
@@ -56,27 +54,31 @@ h1 {
 
 /* nome do perfume */
 h2 {
+    padding: 0.5rem;
     line-height: 2rem;
-    font-size: 2.1rem;
+    font-size: 40px;
     font-family: "Fraunces", serif;    
 }
 
 /* descrição do produto*/
 p {
+    padding: 0.5rem;
     font-size: 14px;
     color: hsl(228, 12%, 48%);
 }
 
 /* valor do produto */
 .price {
+    padding: 0.5rem;
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 h3 {
+    padding: 0.5;
     font-family: "Fraunces", serif;    
     color: hsl(158, 36%, 37%);
-    font-size: 1.5rem;
+    font-size: 30px;
 }
 span {
     text-decoration: line-through;
@@ -86,6 +88,7 @@ span {
 
 /* botão de adicionar no carrinho */
 .btn {
+
     border-radius: 10px;
     background-color: hsl(158, 36%, 37%);
 }
